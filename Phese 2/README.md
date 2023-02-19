@@ -168,47 +168,32 @@
 ```
 <body style="height: 1500px">
 <nav class="navbar navbar-expand-sm">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
-    <!-- Menu -->
+    <a href="#" class="navbar-brand">KOPE</a>
     <ul class="navbar-nav">
-        <li class="nav-item">
-        <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-        <a href="#" class="nav-link">About</a>
-        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
     </ul>
     </div>
 </nav>
 <br />
-<!-- Navbar Color -->
-<nav class="navbar navbar-expand-sm navbar-dark bg-success">
-    <!-- Content -->
-    <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
-    <!-- Menu -->
-    <ul class="navbar-nav">
-        <li class="nav-item">
-        <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-        <a href="#" class="nav-link">About</a>
-        </li>
-    </ul>
-    </div>
-</nav>
 
+<!-- navbaar color -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+    <div class="container-fluid">
+    <a href="#" class="navbar-brand">KOPE</a>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+    </div>
+</nav>
 <br />
+
 <!-- Navbar Toggle -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
+    <a href="#" class="navbar-brand">KOPE</a>
     <button
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -216,7 +201,6 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Menu -->
     <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav">
         <li class="nav-item">
@@ -235,41 +219,32 @@
     </div>
     </div>
 </nav>
-
 <br />
-<!-- Navbar Form -->
+
+<!-- navbaar form -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
-    <!-- Menu -->
+    <a href="#" class="navbar-brand">KOPE</a>
     <ul class="navbar-nav">
-        <li class="nav-item">
-        <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-        <a href="#" class="nav-link">About</a>
-        </li>
-        <form class="d-flex">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+    <form class="d-flex">
         <input
-            type="text"
-            class="form-control me-2"
-            placeholder="ป้อนข้อมูล"
+        type="text"
+        class="form-control me-2"
+        placeholder="ค้นหาข้อมูล"
         />
         <input type="submit" value="ค้นหา" class="btn btn-outline-dark" />
-        </form>
-    </ul>
+    </form>
     </div>
 </nav>
-
 <br />
-<!-- Fixed-Top -->
+
+<!-- Fixed-Top & Fixed-Bottom -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-bottom">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
+    <a href="#" class="navbar-brand">KOPE</a>
     <button
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -277,7 +252,6 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Menu -->
     <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav">
         <li class="nav-item">
@@ -296,16 +270,12 @@
     </div>
     </div>
 </nav>
+<br />
 
-<br />
-<!-- Fixed-Bottom -->
-<br />
-<!-- Sticky-Top -->
+<!-- Sticky-top -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-warning sticky-top">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
+    <a href="#" class="navbar-brand">KOPE</a>
     <button
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -313,7 +283,6 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Menu -->
     <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav">
         <li class="nav-item">
@@ -333,12 +302,11 @@
     </div>
 </nav>
 <br />
-<!-- Dropdown Menu -->
+
+<!-- Dropdown-menu -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
-    <!-- Content -->
     <div class="container-fluid">
-    <!-- Brand -->
-    <a href="#" class="navbar-brand">KongRuksiam</a>
+    <a href="#" class="navbar-brand">KOPE</a>
     <button
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -346,7 +314,6 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Menu -->
     <div class="collapse navbar-collapse" id="navbarToggle">
         <ul class="navbar-nav">
         <li class="nav-item">
@@ -363,7 +330,7 @@
             href="#"
             class="nav-link dropdown-toggle"
             data-bs-toggle="dropdown"
-            >สินค้า</a
+            >Dropdown Product</a
             >
             <ul class="dropdown-menu">
             <li><a href="#" class="dropdown-item">เฟอร์นิเจอร์</a></li>
@@ -376,6 +343,7 @@
     </div>
     </div>
 </nav>
+<br />
 </body>
 ```
 
@@ -391,14 +359,14 @@
     <br />
     <!-- List แบบ Link -->
     <ul class="list-group">
-    <a href="#" class="list-group-item">Item 1</a>
-    <a href="#" class="list-group-item">Item 2</a>
+    <a class="list-group-item">Item 1</a>
+    <a class="list-group-item">Item 2</a>
     </ul>
     <br />
     <!-- List แบบ Active -->
     <ul class="list-group">
-    <a href="#" class="list-group-item active">Item 1</a>
-    <a href="#" class="list-group-item">Item 2</a>
+    <a class="list-group-item active">Item 1</a>
+    <a class="list-group-item">Item 2</a>
     </ul>
     <br />
     <!-- กำหนดสีให้ List -->
@@ -408,7 +376,7 @@
     <li class="list-group-item list-group-item-secondary">
         List Secondary
     </li>
-    <li class="list-group-item list-group-item-success">List Success</li>
+    <li class="list-group-item list-group-item-succes">List Success</li>
     <li class="list-group-item list-group-item-danger">List Danger</li>
     <li class="list-group-item list-group-item-warning">List Warning</li>
     <li class="list-group-item list-group-item-info">List Info</li>
@@ -429,5 +397,141 @@
 ### BreadCrumb-Badge
 
 ```
+<div class="container" style="margin-top: 20px">
+    <!-- สร้าง BreadCrumb -->
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item">สินค้า</li>
+    <li class="breadcrumb-item"></li>เฟอร์นิเจอร์</li>
+    <li class="breadcrumb-item active">โซฟา</li>
+    </ol>
+    <!-- แบบ Link -->
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">สินค้า</a></li>
+    <li class="breadcrumb-item"><a href="#">เฟอร์นิเจอร์</a></li>
+    <li class="breadcrumb-item active"><a href="#">โซฟา</a></li>
+    </ol>
+    <!-- Badge -->
+    <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between">สินค้าทั้งหมด<span class="badge bg-success">45</span></li>
+    <li class="list-group-item d-flex justify-content-between">เฟอร์นิเจอร์<span class="badge bg-primary">15</span></li>
+    <li class="list-group-item d-flex justify-content-between">เครื่องใช้ไฟฟ้า<span class="badge bg-danger">15</span></li>
+    <li class="list-group-item d-flex justify-content-between">เครื่องสำอางค์<span class="badge bg-warning">15</span></li>
+    </ul>
+</div>
+```
 
+### Alert
+
+```
+<div class="container" style="margin-top: 20px">
+    <!-- การสร้าง Alert -->
+    <div class="alert">
+    <strong>Simple Alert</strong>
+    </div>
+
+    <!-- กำหนดสีของ Alert -->
+    <div class="alert alert-primary">
+    <strong>Primary</strong>
+    </div>
+    <div class="alert alert-secondary">
+    <strong>Secondary</strong>
+    </div>
+    <div class="alert alert-success">
+    <strong>Success</strong>
+    </div>
+    <div class="alert alert-danger">
+    <strong>Danger</strong>
+    </div>
+    <div class="alert alert-warning">
+    <strong>Warning</strong>
+    </div>
+    <div class="alert alert-info">
+    <strong>Info</strong>
+    </div>
+    <div class="alert alert-light">
+    <strong>Light</strong>
+    </div>
+    <div class="alert alert-dark">
+    <strong>Dark</strong>
+    </div>
+
+    <!-- Link Alert -->
+    <div class="alert alert-success">
+    <strong>Link Alert</strong>
+    <a href="#" class="alert-link">Link</a>
+    </div>
+
+    <!-- การปิด Alert -->
+    <div class="alert alert-success alert-dismissible">
+    <button class="btn-close" data-bs-dismiss="alert"></button>
+    <h2 class="alert-heading">Hello World</h2>
+    <hr />
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        reprehenderit distinctio fuga magni maxime assumenda inventore,
+        laudantium perferendis esse tempora.
+    </p>
+    </div>
+</div>
+```
+
+### Progressbar
+
+```
+<div class="container" style="margin-top: 20px">
+    <!-- การสร้าง Progressbar -->
+    <div class="progress">
+    <div class="progress-bar" style="width: 50%"></div>
+    </div>
+    <br />
+    <!-- สร้าง Progressbar พร้อม Text -->
+    <div class="progress">
+    <div class="progress-bar" style="width: 50%">50%</div>
+    </div>
+    <br />
+    <!-- กำหนดสีให้ Progressbar -->
+    <div class="progress">
+    <div class="progress-bar bg-success" style="width: 99%">Success</div>
+    </div>
+    <br />
+    <div class="progress">
+    <div class="progress-bar bg-warning" style="width: 99%">Warning</div>
+    </div>
+    <br />
+    <div class="progress">
+    <div class="progress-bar bg-primary" style="width: 99%">Primary</div>
+    </div>
+    <br />
+    <!-- กำหนดความสูง -->
+    <div class="progress" style="height: 50px">
+    <div class="progress-bar bg-danger" style="width: 75%">75%</div>
+    </div>
+    <br />
+    <!-- Striped Progressbar -->
+    <div class="progress" style="height: 50px">
+    <div
+        class="progress-bar bg-success progress-bar-striped"
+        style="width: 90%"
+    >
+        90%
+    </div>
+    </div>
+    <br />
+    <!-- กำหนด Striped Animation -->
+    <div class="progress" style="height: 50px">
+    <div
+        class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+        style="width: 90%"
+    >
+        90%
+    </div>
+    </div>
+    <br />
+    <!-- Multiple Progressbar -->
+    <div class="progress" style="height: 50px">
+    <div class="progress-bar bg-warning" style="width: 25%"></div>
+    <div class="progress-bar bg-success" style="width: 25%"></div>
+    <div class="progress-bar bg-primary" style="width: 50%"></div>
+    </div>
+</div>
 ```
