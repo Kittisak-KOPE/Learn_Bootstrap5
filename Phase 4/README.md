@@ -210,5 +210,179 @@
 ### Collapse & Accordion
 
 ```
+<div class="container my-2">
+    <button
+    class="btn btn-success"
+    data-bs-toggle="collapse"
+    data-bs-target="#collapse-content"
+    >
+    ดูข้อมูลเพิ่มเติม
+    </button>
+    <div id="collapse-content" class="collapse">
+    <div class="card">
+        <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure modi
+        velit beatae mollitia dolor maiores nam, quod fuga neque ab!
+        </div>
+    </div>
+    </div>
+    <hr />
 
+    <div id="accordion-basic" class="accordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button
+            class="accordion-button"
+            data-bs-toggle="collapse"
+            data-bs-target="#content1"
+        >
+            ท่องเที่ยว
+        </button>
+        </h2>
+        <div id="content1">
+        <div class="accordion-body">
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus nobis ullam dicta facere quos vitae aspernatur,
+            delectus quibusdam. Enim dolores ipsa voluptate neque minus,
+            culpa deleniti sed necessitatibus dignissimos fugiat?
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button
+            class="accordion-button"
+            data-bs-toggle="collapse"
+            data-bs-target="#content2"
+        >
+            อาหาร
+        </button>
+        </h2>
+        <div id="content2">
+        <div class="accordion-body">
+            <img
+            src="https://cdn.pixabay.com/photo/2018/10/14/18/29/meatloaf-3747129_960_720.jpg"
+            alt=""
+            />
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus nobis ullam dicta facere quos vitae aspernatur,
+            delectus quibusdam. Enim dolores ipsa voluptate neque minus,
+            culpa deleniti sed necessitatibus dignissimos fugiat?
+            </p>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+```
+
+### Tooltips
+
+```
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+```
+
+```
+<hr />
+<hr />
+<div class="container my-4">
+    <button
+    class="btn btn-primary"
+    data-bs-toggle="tooltip"
+    data-bs-placement="top"
+    title="13:00 - 19:00"
+    >
+    เวลาทำการเพจ
+    </button>
+</div>
+<script>
+    var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+</script>
+```
+
+### PopOver
+
+```
+<script src="js/bootstrap.bundle.js"></script>
+```
+
+```
+<div class="container my-4">
+    <button
+    class="btn btn-danger"
+    data-bs-toggle="popover"
+    title="ที่อยู่ของฉัน"
+    data-bs-content="บ้านโปรแกรมเมอร์ อ.เมือง จ.สุรินทร์ 555"
+    >
+    คลิกเพื่อดูรายละเอียดที่อยู่
+    </button>
+</div>
+<script>
+    var popoverTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+    });
+</script>
+```
+
+### Modal
+
+```
+<script src="js/bootstrap.bundle.js"></script>
+```
+
+```
+<div class="container my-4">
+    <button
+    class="btn btn-primary"
+    data-bs-target="#showForm"
+    data-bs-toggle="modal"
+    >
+    ลงทะเบียน
+    </button>
+    <div class="modal" id="showForm">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">แบบฟอร์ลงทะเบียน</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+            <div class="form-group">
+                <label for="">ชื่อ</label>
+                <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="">นามสกุล</label>
+                <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="">ที่อยู๋</label>
+                <input type="text" class="form-control" />
+            </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+            ยกเลิก
+            </button>
+            <button class="btn btn-success">บันทึกข้อมูล</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
 ```
